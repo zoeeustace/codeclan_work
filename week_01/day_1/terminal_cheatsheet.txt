@@ -1,0 +1,52 @@
+ls / ls -l/ ls -a/
+List everything in current directory
+
+pwd
+print working directory 
+
+cd 
+change directory
+
+cd ..
+move up one directory
+
+mkdir 
+make a folder
+
+touch
+create a file
+
+rm
+remove
+
+rm -r
+remove a folder and all contents
+
+rm -fr
+force remove everything - avoid
+
+man
+manual pages
+
+history
+Show the most recent 200 commands
+
+#up command
+Allows you to look through the previous commands
+
+mv
+Allows files to be moved or renamed
+
+cp
+To copy files/folders etc
+
+
+git init
+git initiate
+
+git add
+adds for committing
+
+git commit -m
+
+git push origin main
