@@ -17,3 +17,8 @@ class TestCompare(unittest.TestCase):
         expected_value = "1 is equal to 1"
         actual_value = compare(1, 1)
         self.assertEqual(expected_value, actual_value)
+
+    def test_comparing_int_to_str_returns_less_than(self):
+        expected_value = "1 is less than 2"
+        actual_value = compare(1, "2")
+        self.assertEqual(expected_value, actual_value)
