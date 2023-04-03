@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-seif;
+}
+
+body > header {
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px;
+}
+
+body > header > nav > ul > li > a {
+    color: white;
+}
+
+body > header > nav > ul {
+    list-style: none;
+}
+
+body > footer {
+    background-color: dodgerblue;
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
+
+body > main {
+    margin: auto;
+    width: 95%
+}
+
+body > main > article {
+    margin: auto;
+    width: 80%
+}
