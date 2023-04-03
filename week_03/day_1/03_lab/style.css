@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Helvetica, Arial, sans-seif;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 body > header {
@@ -32,4 +32,12 @@ body > main {
 body > main > article {
     margin: auto;
     width: 80%
+}
+
+#comment {
+    border-top-style: solid;
+}
+
+#submit-button {
+    text-align: right;
 }
