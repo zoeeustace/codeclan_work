@@ -1,0 +1,162 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #4584b1;
+  height: 4rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  margin: 40px;
+  font-size: 24px;
+}
+
+nav {
+  background-color: #103594;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+body > nav > ul > li {
+  color: white;
+  font-size: 14px;
+  list-style: none;
+  margin-right: 0.8rem;
+}
+
+body > nav > ul > li > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+body > nav > ul > li > a:hover {
+  text-decoration: underline;
+}
+
+.where-togo {
+  background-color: #040e27;
+  padding: 1rem;
+}
+
+.where-togo > h3 {
+  color: white;
+  font-size: 20px;
+}
+
+.search-form {
+  display: flex;
+}
+
+.input-field {
+  margin: 4px;
+  width: 120px;
+}
+
+input {
+  width: 110px;
+  height: 30px;
+  padding-left: 10px;
+  border-radius: 3px; 
+  /* Style the form input elements using width, height, padding-left and border-radius */
+}
+
+.nice-select {
+  width: 115px;
+  height: 36.5px;
+  font-size: 11px;
+  color: darkgrey;
+  border: solid;
+  border-width: 1px;
+  border-radius: 0px;
+  /* Select elements are not imput elements! Therefore we've given the <select> element it's own class  */
+  /* They are notoriously difficult to style with css */
+  /* In this case you can use width, height, font-size, color, border and border-radius */
+}
+
+.search-btn {
+  background: red;
+  color: white;
+  font-size: 11px;
+  height: 36.5px;
+  width: 70px;
+  border: red;
+  border-radius: 3px;
+  cursor: default;
+}
+
+.container {
+  display: grid;
+  grid-template-areas: 
+  'single-destination single-destination single-destination'
+  'single-destination single-destination single-destination'
+}
+
+.row {
+  grid-template-columns: 30% 30% 30%;
+}
+
+.section-title {
+  display: flex;
+  justify-content: center;
+  }
+
+.single-destination {
+  margin: 3px;
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Let's take the training wheels off. Finish off the page by adding styles to the remaining blocks */
+
+.testimonial-area {
+  background-color: darkgray;
+  padding: 60px;
+
+}
+
+.single-testmonial{
+  background-color: aliceblue;
+  margin: 20px;
+  padding: 20px
+}
+
+.footer {
+  /* Write your code here */
+}
+
+.footer-widget p {
+  /* Write your code here */
+}
+
+.footer-widget a:hover {
+   /* Write your code here */
+}
+
+.footer-widget ul li {
+  /* Write your code here */
+}
+
+.footer-widget a {
+   /* Write your code here */
+}
+
+/* Media Queries */
+
+@media (max-width: 720px) {
+    /* Add some responsive code here */
+    /* Make the destinations stack on top of each other */
+    /* Make the form input stack on top of each other */
+}
