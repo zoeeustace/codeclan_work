@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>{{title}} - Individual Order</title>
+        <link rel="stylesheet" href="{{ url_for("static", filename="order_style.css") }}">
+    </head>
+    <body>
+        <header>
+            <h1>Individual Order</h1>
+        </header>
+        <main>
+            <h2>Customer Name: {{order.customer_name}}</h2>
+            <h3>Book Title: {{order.book_title}}</h3>
+            <h3>Order Date: {{order.order_date}}</h3>
+            <p>Quantity: {{order.quantity}}</p>
+            <p>Author: {{order.author}}</p>
+            <img src="{{url_for('static', filename='/img/GOF.jpeg') }}" alt="Book Cover">
+        </main>
+        <footer>
+            <p>&copy; My Book Shop 2023</p>
+        </footer>
+    </body>
+</html>

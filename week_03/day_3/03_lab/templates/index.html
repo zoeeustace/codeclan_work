@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>{{title}} - Orders</title>
+        <link rel="stylesheet" href="{{ url_for("static", filename="style.css") }}">
+    </head>
+    <body>
+        <div id="grid-container">
+            <header>
+                <h1>My Orders</h1>
+            </header>
+            <main>
+            {% for order in orders %}
+            <div>
+                <p>
+                    {{order.id}}: {{order.customer_name}}, {{order.book_title}}, {{order.order_date}}
+                </p>
+                <a href="{{ url_for("single_order", id=order.id -1) }}">View Order</a>
+            </div>
+            {% endfor %}
+            </main>
+            <footer>
+                <p>&copy; My Book Shop 2023</p>
+            </footer>
+        </div>
+    </body>
+
+</html>
