@@ -2,9 +2,9 @@ import React from 'react';
 
 const Film = ({film}) =>{
     return(
-        <>
-        <p>{film.name}</p>
-        </>
+        <div className="film">
+        <a href={film.url}>{film.name}</a>
+        </div>
     );
 }
 
