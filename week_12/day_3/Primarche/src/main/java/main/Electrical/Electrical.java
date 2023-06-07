@@ -32,4 +32,6 @@ public abstract class Electrical extends Product {
     public String turnOn(){
         return "Turning On";
     }
+
+//    public abstract String turnOn(); abstract method - would mean that all child classes from this have the method turnOn, but they need to be specified in each child class
 }

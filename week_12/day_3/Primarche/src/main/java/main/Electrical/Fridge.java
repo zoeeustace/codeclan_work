@@ -1,6 +1,8 @@
 package main.Electrical;
 
-public class Fridge extends Electrical {
+import main.ISell;
+
+public class Fridge extends Electrical implements ISell {
 
     private int minTemp;
     private boolean freezer;
@@ -28,5 +30,9 @@ public class Fridge extends Electrical {
 
     public String turnOn(){
         return "Getting chilly";
+    }
+
+    public String sellItem(int bankCard) {
+        return "Transaction Complete";
     }
 }
