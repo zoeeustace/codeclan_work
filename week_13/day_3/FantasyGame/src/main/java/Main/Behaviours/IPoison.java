@@ -1,5 +1,7 @@
 package Main.Behaviours;
 
+import Main.Enums.Poison;
+
 public interface IPoison {
-    public String poison (String poison);
+    public int poison (Poison poison);
 }
