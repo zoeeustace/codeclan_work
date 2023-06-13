@@ -1,3 +1,4 @@
+import Main.Character;
 import org.junit.Before;
 
 public class CharacterTest {
