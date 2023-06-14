@@ -1,11 +1,11 @@
 package Main;
 
-public abstract class Character {
+public abstract class Player {
 
     private String name;
     private int health;
 
-    public Character(String name, int health) {
+    public Player(String name, int health) {
         this.name = name;
         this.health = health;
     }
